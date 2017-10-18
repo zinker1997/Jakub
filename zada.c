@@ -27,7 +27,7 @@ int main(int argc, char **argv){
 	
 
 
-printf("NWD %d", euklides(x,y));
+printf("NWW %d", euklides(x,y));
  return 0;
 }
 
