@@ -1,15 +1,33 @@
 #include <stdio.h>
 using namespace std;
 
-double pole(double r){
-	
-	double p=3.14*r*r;
-	return p;
+
+
+int euklides(int x, int y){
+	while(x!=y){
+	if(x!=y)
+	{
+		if(x>y)
+		{
+			x=x-y;
+		}
+		else
+		{
+		    y=y-x;
+		}
+	}
 	
 }
+return y;
+}
+
 int main(int argc, char **argv){
-double r=10;
-printf("pole %lf", pole(r));
+	int x=20;
+	int y=50;
+	
+
+
+printf("NWD %d", euklides(x,y));
  return 0;
 }
 
