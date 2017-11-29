@@ -1,0 +1,12 @@
+#!/bin/bash
+if [ ! -f "$1" ]
+then
+	echo "$1 to nie jest plik"
+	break
+fi
+x=$1
+while [ -d "$2" ]
+do
+	cp $x $2
+	shift
+done
